@@ -6,9 +6,16 @@
 //
 
 #include <iostream>
+#include <math.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+using namespace std;
+
+int main()
+{
+    cout << "Enter A and B: ";
+    int a,b;
+    cin >> a >> b;
+    cout << "A + B = " << a + b << '\n'
+         << "A - B = " << a - b << '\n';
+    
 }
